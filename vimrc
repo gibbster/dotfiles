@@ -27,8 +27,10 @@ set softtabstop=2
 
 set tags=./tags;
 
+set iskeyword-=_
+
 filetype on
 filetype plugin on
 filetype indent on
 
-set grepprg=ack-grep\ -a
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"

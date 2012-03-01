@@ -1,6 +1,8 @@
 # otherwise oh my zsh is unbearably slow
 setopt NO_cdable_vars
 
+autoload zmv
+
 # oh my zsh stuff
 ZSH_THEME="arrow"
 plugins=(git)
@@ -17,3 +19,6 @@ export ACK_PAGER="less -R"
 export PATH="/var/lib/gems/1.8/bin:$HOME/bin:$PATH"
 
 export EDITOR="vim"
+
+hash -d log=/var/log
+hash -d doc=/usr/share/doc
