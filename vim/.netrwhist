@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/dgibb/projects/fox/dev/sites/foxnews.com.on-air.special-report'
-let g:netrw_dirhist_2='/home/dgibb/projects/aurionpro'
-let g:netrw_dirhist_3='/home/dgibb/projects/genentech/girequest/application/modules/crf/views/scripts/list'
-let g:netrw_dirhist_4='/home/dgibb/projects/genentech/crf/gene_scr/common_header.phtml'
-let g:netrw_dirhist_5='/home/dgibb/projects/comm-wcm-ext/common/webapps/portlet-framework/src/com/gene/comm/portal/portlet/controller'
-let g:netrw_dirhist_6='/home/dgibb/sites/drupal/test/sites/all/modules/search_api/includes'
-let g:netrw_dirhist_7='/home/dgibb/.vim'
