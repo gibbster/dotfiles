@@ -2,7 +2,8 @@ execute pathogen#infect()
 execute pathogen#helptags()
 
 set nocompatible
-set statusline=%<\ %n:%f\ %m%r%y%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
+set statusline=%<\ %n:%f\ %m%r%y%{fugitive#statusline()}%=%-35.(line:\ %l\ of\ %L,\ col:\ %c%V\ (%P)%)
+set laststatus=2
 filetype plugin indent on
 
 syntax on
