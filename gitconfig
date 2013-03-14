@@ -7,6 +7,7 @@
 	prompt = false
 [alias]
 	d = difftool
+	g = grep --break --heading --line-number
 [grep]
 	lineNumber = true
 	extendRegexp = true
