@@ -8,12 +8,13 @@ filetype plugin indent on
 
 syntax on
 set nu
+au BufRead,BufNewFile *.jst set filetype=html
 
 set showmatch
 set ignorecase
 set showmode
-set ts=2
-set sw=2
+set ts=4
+set sw=4
 set autoindent
 set smartindent
 set cursorline
@@ -29,18 +30,24 @@ set hlsearch    " Highlight search term
 set autowrite		" Automatically save before commands like :next and :make
 set hidden             " Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
+set clipboard=unnamed
 
 set expandtab
-set softtabstop=2
+set softtabstop=4
 
 set tags=./tags;
 
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
+let g:vim_markdown_folding_disabled=1
+
+
 set ttimeoutlen=50
 
 " ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set wildignore+=*.class
+
 
 if &term =~ "xterm" || &term =~ "screen"
   let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
